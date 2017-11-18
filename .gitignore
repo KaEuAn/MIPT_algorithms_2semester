@@ -1,0 +1,11 @@
+*.exe
+
+*make
+*cbp
+*debug
+*idea
+CMake*
+*.log
+*.aux
+*.gz
+*.docx

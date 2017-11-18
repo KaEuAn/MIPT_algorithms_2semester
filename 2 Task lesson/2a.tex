@@ -1,0 +1,16 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\title{Задача 2a}  
+\date{27/02/2017}  
+\author{Kailiak Eugene}
+\begin{document}
+\maketitle
+Сотворим из одной из последовательностей последовательность, аналогичную ей, только с парами: значение - индекс. Отсортируем за $O(n \log n)$. Далее возьмём нетронутую последовательность, и для каждого числа в ней мы найдём соответствующее ему значение в другой последовательности с помощью бинпоиска. Это тоже происходит за $O(n \log n)$. Получим последовательность индексов $a[i]$ - индекс в первой последовательности элемента с индексом $i$ во второй последовательности. Тогда наибольшая общая последовательность - это наибольшая возрастающая последовательность этих индексов, а её мы уже умеем находить за $O(n \log n)$, поэтому задача решена.
+\end{document}
