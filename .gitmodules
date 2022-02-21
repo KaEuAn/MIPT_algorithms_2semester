@@ -1,6 +1,6 @@
 [submodule "Allocator"]
    	path = Allocator
-	url = https://github.com/KaEuAn/Allocator.git
+	url = https://github.com/KaEuAn/FastAllocator.git
 [submodule "BinarySearchTree"]
    	path = BinarySearchTree
 	url = https://github.com/KaEuAn/BinarySearchTree.git
