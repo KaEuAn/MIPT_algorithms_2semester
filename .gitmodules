@@ -1,4 +1,4 @@
-[submodule "Allocator"]
+[submodule "FastAllocator"]
    	path = Allocator
 	url = https://github.com/KaEuAn/FastAllocator.git
 [submodule "BinarySearchTree"]
