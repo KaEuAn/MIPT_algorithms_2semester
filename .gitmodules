@@ -1,0 +1,9 @@
+[submodule "Allocator"]
+   	path = Allocator
+	url = https://github.com/KaEuAn/Allocator.git
+[submodule "BinarySearchTree"]
+   	path = BinarySearchTree
+	url = https://github.com/KaEuAn/BinarySearchTree.git
+[submodule "SmartPointers"]
+   	path = Pointers
+	url = https://github.com/KaEuAn/SmartPointers.git
